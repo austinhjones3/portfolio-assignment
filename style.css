@@ -1,0 +1,82 @@
+/* reset for browser differences */
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+}
+
+header {
+  color: white;
+  background-color: black;
+  margin-top: -28px;
+}
+
+header h1,
+header h3 {
+  font-family: "JetBrains Mono";
+  text-align: center;
+  /* background-color: red; */
+}
+
+header h1 {
+  font-size: 2.5em;
+  /* background-color: blue; */
+  padding-top: 10px;
+}
+
+header h3 {
+  margin-top: -5.5%;
+  font-size: 22px;
+}
+
+main {
+  margin-left: 6.5%;
+  margin-right: 5%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -8%;
+}
+
+.nav-el {
+  /* margin-top: -5.5%; */
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+header .item a {
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 20px;
+}
+
+img {
+  margin-top: 15px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: black;
+}
+
+section {
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+
+section h4 {
+  font-family: "JetBrains Mono";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+section a {
+}
