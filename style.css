@@ -24,7 +24,7 @@ header {
 
 header h1,
 header h3 {
-  font-family: "JetBrains Mono", Consolas;
+  font-family: "JetBrains Mono", Consolas, monospace;
   text-align: center;
   /* background-color: red; */
 }
