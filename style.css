@@ -4,11 +4,13 @@ body {
   margin-left: 7%;
   /* padding-left: 30px;
   padding-right: 25px; */
+  background-color: #f0f0f0;
+  color: #101010;
 }
 
 header {
-  color: white;
-  background-color: black;
+  color: #f0f0f0;
+  background-color: #101010;
   padding-top: 50px;
   /*padding-bottom: 2%;*/
   margin-top: -75px;
@@ -72,7 +74,7 @@ header .item a {
   padding-left: 15px;
   padding-right: 15px;
   font-family: "Montserrat";
-  color: white;
+  color: #f0f0f0;
   font-size: 20px;
 }
 
@@ -83,7 +85,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   border: solid;
-  border-color: black;
+  border-color: #101010;
 }
 
 #portrait {
@@ -104,7 +106,7 @@ section h4 {
 }
 
 footer {
-  background-color: black;
+  background-color: #101010;
   margin-top: 50px;
   margin-bottom: -40px;
   margin-right: -9%;
@@ -115,6 +117,48 @@ h6 {
   color: grey;
   text-align: right;
   font-family: "JetBrains Mono";
-  font-size: 17px;
+  font-size: 18px;
   padding-right: 15px;
+}
+
+input,
+textarea,
+label {
+  display: flex;
+  width: 100%;
+}
+
+input,
+textarea {
+  max-width: 500px;
+  background-color: #101010;
+  color: #fff;
+  font-family: "montserrat";
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  max-width: 750px;
+}
+
+label {
+  padding-bottom: 3px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+label:first-child {
+  padding-top: 0;
+}
+
+button {
+  border: solid 2px #101010;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  font-size: 24px;
+  margin-top: 20px;
 }
