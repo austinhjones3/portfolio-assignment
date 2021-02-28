@@ -100,6 +100,7 @@ section h4 {
   margin-bottom: 5px;
 }
 
+/* for the social media img links */
 #socials {
   display: flex;
   justify-content: center;
@@ -124,6 +125,7 @@ section h4 {
   padding-right: 20px;
 }
 
+/* format the form boxes */
 input,
 textarea,
 label {
@@ -158,6 +160,7 @@ label:first-child {
   padding-top: 0;
 }
 
+/* make the button bigger and nicer*/
 button {
   border: solid 2px #101010;
   border-radius: 6px;
@@ -166,6 +169,7 @@ button {
   margin-top: 20px;
 }
 
+/* style footer */
 footer {
   background-color: #101010;
   margin-top: 50px;
@@ -181,6 +185,8 @@ h6 {
   font-size: 18px;
   padding-right: 15px;
 }
+
+/* >>>>>>>>>>>>>> MEDIA QUERY FOR DESKTOPS <<<<<<<<<<<<<<<<<< */
 
 @media all and (min-width: 1024px) {
   .group {
