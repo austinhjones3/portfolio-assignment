@@ -31,127 +31,143 @@
     <main>
       <section class="group">
         <div class="item" id="portrait">
-          <img src="./images/austin-portrait.jpg" alt="" />
+          <img id="portrait-img" src="./images/austin-portrait.jpg" alt="" />
         </div>
 
         <article class="item" id="introHeading">
-          <h4>Ordinary Guy, Extraordinary Passion</h4>
+          <h4>Hello There!</h4>
           <p>
-            &emsp;Hello there, I'm Austin Jones. I'm from New Orleans, LA, and I
-            have a long history of customer service which I have translated to
-            my web development career.
+            I'm Austin Jones. I'm from New Orleans, LA, and I have a long
+            history of customer service which I have translated to my web
+            development career.
           </p>
         </article>
       </section>
+
+      <!-- >>>>>>>>>>>>>>> ABOUT ME <<<<<<<<<<<<<<<<< -->
 
       <section id="about">
         <h4>About Austin</h4>
         <p>
-          &emsp;When I was a teenager, I had many ideas for blogs, websites, and
-          web marketing. I would spend a decent amount of my free-time trying to
+          When I was a teenager, I had many ideas for blogs, websites, and web
+          marketing. I would spend a decent amount of my free-time trying to
           piece together these ideas without any technical knowledge. It is only
           natural that I grew up to learn how to make these ideas a reality.
         </p>
         <p>
-          &emsp;I have found that my best work comes out when I work with other
-          engineers. Teaching others helps me learn faster and learn topics
-          deeper than I would have alone. Likewise, someone pointing out my
-          mistakes helps me to understand why it is a mistake in the first
-          place.
+          The best part of software engineering, to me, is collaborating with
+          other people to solve problems. I enjoy banding together with people
+          with common goals to create efficient, well-structured solutions.
         </p>
         <p>
-          &emsp;In my free time, I enjoy working out, reading non-fiction,
-          watching dramas and animes, listening to music, hanging out with my
+          In my free time, I enjoy working out, reading non-fiction, watching
+          dramas, animes, and Star Wars, listening to music, hanging out with my
           fiancé and daughter, and working on side projects.
         </p>
         <p>
-          &emsp;I can build fully functional inanimate webpages, back-end
-          node.js services, as well as help you receive and use information from
-          other websites.
+          I can build fully functional inanimate webpages, back-end node.js
+          services, as well as help you receive and use information from other
+          websites.
         </p>
       </section>
       <section id="projects" class="group">
         <h4>Projects</h4>
-      </section>
-      <section id="projects" class="group">
-        <article class="item projectBody">
-          <h4 id="projectName">
-            <a href="https://github.com/austinhjones3/get-coins" target="_blank"
-              >Get-Coins</a
-            >
-          </h4>
-          <p id="projectBody">
-            &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Aliquam in magna nulla. Nulla eu erat quis elit lacinia tempus.
-            Integer convallis magna sed scelerisque consectetur. Integer finibus
-            in lectus id mollis. Curabitur ipsum mi, viverra eu nibh ac,
-            hendrerit tristique leo. Pellentesque gravida, elit sit amet iaculis
-            malesuada, neque neque porttitor tellus, in condimentum mi leo nec
-            leo. Donec mollis augue turpis, mattis dapibus enim malesuada eu.
-            Proin consectetur ipsum nunc, nec porttitor ipsum mollis.
-          </p>
-        </article>
+        <!-- </section>
+      <section id="projects" class="group"> -->
+        <div id="projectArticles">
+          <article class="item projectBody">
+            <h4 id="projectName">
+              <a
+                href="https://github.com/austinhjones3/get-coins"
+                target="_blank"
+                >Get-Coins</a
+              >
+            </h4>
+            <p>
+              I decided the best way to review my knowledge of making AJAX
+              requests with async-await in Node.js would be to make a small
+              application that calls an API I’ve never used before. I chose
+              Coinbase’s non-authenticated public API options. The users have
+              four options for requests. When a request is selected, it is
+              called with axios and then the user has the choice to make another
+              request, or to end the run. The front end for this project is the
+              old reliable terminal.
+            </p>
+          </article>
 
-        <article class="item projectBody">
-          <h4 id="projectName">
-            <a
-              href="https://github.com/austinhjones3/decoder-ring"
-              target="_blank"
-              >Decoder Ring</a
-            >
-          </h4>
-          <p id="projectBody">
-            &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Aliquam in magna nulla. Nulla eu erat quis elit lacinia tempus.
-            Integer convallis magna sed scelerisque consectetur. Integer finibus
-            in lectus id mollis. Curabitur ipsum mi, viverra eu nibh ac,
-            hendrerit tristique leo. Pellentesque gravida, elit sit amet iaculis
-            malesuada, neque neque porttitor tellus, in condimentum mi leo nec
-            leo. Donec mollis augue turpis, mattis dapibus enim malesuada eu.
-            Proin consectetur ipsum nunc, nec porttitor ipsum mollis.
-          </p>
-        </article>
+          <article class="item projectBody">
+            <h4 id="projectName">
+              <a
+                href="https://github.com/austinhjones3/decoder-ring"
+                target="_blank"
+                >Decoder Ring</a
+              >
+            </h4>
+            <p>
+              A few other engineering students and I at Thinkful worked together
+              to create our individual solutions for the caesar cipher, the
+              substitution cipher, and the polybius square cipher in Node.js. We
+              also built mocha and chai tests for our own solutions. It was fun
+              to work through these ciphers using more primitive programming
+              practices. It helped me to nail down some of the basics in the
+              midst of learning more and more modern syntax.
+            </p>
+          </article>
 
-        <article class="item projectBody">
-          <h4 id="projectName">
-            <a
-              href="https://github.com/austinhjones3/project-local-library"
-              target="_blank"
-              >Local Library</a
-            >
-          </h4>
-          <p>
-            &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Aliquam in magna nulla. Nulla eu erat quis elit lacinia tempus.
-            Integer convallis magna sed scelerisque consectetur. Integer finibus
-            in lectus id mollis. Curabitur ipsum mi, viverra eu nibh ac,
-            hendrerit tristique leo. Pellentesque gravida, elit sit amet iaculis
-            malesuada, neque neque porttitor tellus, in condimentum mi leo nec
-            leo. Donec mollis augue turpis, mattis dapibus enim malesuada eu.
-            Proin consectetur ipsum nunc, nec porttitor ipsum mollis.
-          </p>
-        </article>
+          <article class="item projectBody">
+            <h4 id="projectName">
+              <a
+                href="https://github.com/austinhjones3/project-local-library"
+                target="_blank"
+                >Local Library</a
+              >
+            </h4>
+            <p>
+              The local library is a back-end Node.js data handling and
+              structuring program that uses many array methods and a ton of ES6
+              syntax. Sets of data such as authors, books, and library account
+              members interact with each other. The goal of the project was to
+              organize the data into different filter sets that show the data in
+              a more palatable interface than simply scrolling through lines and
+              lines of data. Here, I learned a lot about arrays and objects.
+            </p>
+          </article>
+        </div>
       </section>
 
       <section id="contact">
-        <h4>Contact</h4>
-        <p>For business inquiries, please fill out and submit this form.</p>
-        <form action="formspree">
+        <h4>Contact Austin</h4>
+        <nav id="socials">
+          <h5>Socials</h5>
+          <a href="https://linkedin.com/in/austinhjones3" target="_blank"
+            ><img src="./images/linkedin-icon.png" alt="LinkedIn"
+          /></a>
+          <a href="https://github.com/austinhjones3" target="_blank"
+            ><img src="./images/github-icon.png" alt="Github"
+          /></a>
+        </nav>
+        <p>To email me directly, please fill out this form.</p>
+        <form action="https://formspree.io/f/xleoyjpn" method="POST">
           <div class="field">
             <label for="name">Name</label>
-            <input id="name" type="text" placeholder="Enter name" />
+            <input name="name" id="name" type="text" placeholder="Enter name" />
           </div>
 
           <div class="field">
             <label for="Email">Email</label>
-            <input id="name" type="text" placeholder="Enter email" />
+            <input
+              name="email"
+              id="name"
+              type="text"
+              placeholder="Enter email"
+            />
           </div>
 
           <div class="field">
             <label for="message">Message</label>
             <textarea
               placeholder="Enter message"
-              name=""
+              name="message"
               id="message"
               cols="30"
               rows="10"
@@ -162,6 +178,8 @@
       </section>
     </main>
 
-    <footer><h6>v0.12 | Austin Jones ©2020-2021</h6></footer>
+    <footer>
+      <h6>v0.12 | Austin Jones ©2020-2021</h6>
+    </footer>
   </body>
 </html>
