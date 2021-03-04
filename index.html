@@ -40,10 +40,9 @@
 
         <article class="item" id="introHeading">
           <h4>Hello There!</h4>
-          <p>
-            I'm Austin Jones. I'm from New Orleans, LA, and I have a long
-            history of customer service which I have translated to my web
-            development career.
+          <p class="aboutBody">
+            I'm Austin Jones. I'm from New Orleans, LA, and I have a long history of
+            customer service, which I have translated to my web development career.
           </p>
         </article>
       </section>
@@ -52,27 +51,30 @@
 
       <section id="about">
         <h4>About Austin</h4>
-        <p>
-          When I was a teenager, I had many ideas for blogs, websites, and web
-          marketing. I would spend a decent amount of my free-time trying to
-          piece together these ideas without any technical knowledge. It is only
-          natural that I grew up to learn how to make these ideas a reality.
-        </p>
-        <p>
-          The best part of software engineering, to me, is collaborating with
-          other people to solve problems. I enjoy banding together with people
-          with common goals to create efficient, well-structured solutions.
-        </p>
-        <p>
-          In my free time, I enjoy working out, reading non-fiction, watching
-          dramas, animes, and Star Wars, listening to music, hanging out with my
-          fiancé and daughter, and working on side projects.
-        </p>
-        <p>
-          I can build fully functional inanimate webpages, back-end node.js
-          services, as well as help you receive and use information from other
-          websites.
-        </p>
+        <div class="aboutBody">
+          <p>
+            When I was a teenager, I had many ideas for blogs, websites, and web
+            marketing. I would spend a decent amount of my free time trying to piece
+            together these ideas without any technical knowledge. It is only natural
+            that I grew up to learn how to make these ideas a reality.
+          </p>
+          <p>
+            The best part of software engineering, to me, is collaborating with other
+            people to solve problems. I enjoy banding together with people with
+            common goals to create efficient, well-structured solutions.
+          </p>
+          <p>
+            In my free time, I enjoy: working out, reading non-fiction, watching
+            dramas, animes, and Star Wars, listening to music, hanging out with my
+            fiancé and daughter, and working on side projects.
+          </p>
+          <p>
+            I am confident in: Node.js, React.js, HTML5, CSS3, SASS, and unit
+            testing. As such, I can build a website for you. I am also able to fix
+            problems that your website may be having. In addition to these two
+            services, I offer consultation before any service charge is rendered.
+          </p>
+        </div>
       </section>
 
       <!-- >>>>>>>>>>>>>>> PROJECTS <<<<<<<<<<<<<<<< -->
@@ -84,21 +86,18 @@
 
           <article class="item projectBody">
             <h4 class="projectName">
-              <a
-                href="https://github.com/austinhjones3/get-coins"
-                target="_blank"
+              <a href="https://github.com/austinhjones3/get-coins" target="_blank"
                 >Get-Coins</a
               >
             </h4>
             <p>
-              I decided the best way to review my knowledge of making AJAX
-              requests with async-await in Node.js would be to make a small
-              application that calls an API I’ve never used before. I chose
-              Coinbase’s non-authenticated public API options. The users have
-              four options for requests. When a request is selected, it is
-              called with axios and then the user has the choice to make another
-              request, or to end the run. The front end for this project is the
-              old reliable terminal.
+              I decided the best way to review my knowledge of making AJAX requests
+              with async-await in Node.js would be to make a small application that
+              calls an API I’ve never used before. I chose Coinbase’s
+              non-authenticated public API options. The users have four options for
+              requests. When a request is selected, it is fulfilled with Axios. Then
+              the user has the choice to make another request or to end the run. The
+              front end for this project is the old reliable terminal.
             </p>
           </article>
 
@@ -106,20 +105,18 @@
 
           <article class="item projectBody">
             <h4 class="projectName">
-              <a
-                href="https://github.com/austinhjones3/decoder-ring"
-                target="_blank"
+              <a href="https://github.com/austinhjones3/decoder-ring" target="_blank"
                 >Decoder Ring</a
               >
             </h4>
             <p>
-              A few other engineering students and I at Thinkful worked together
-              to create our individual solutions for the caesar cipher, the
-              substitution cipher, and the polybius square cipher in Node.js. We
-              also built mocha and chai tests for our own solutions. It was fun
-              to work through these ciphers using more primitive programming
-              practices. It helped me to nail down some of the basics in the
-              midst of learning more and more modern syntax.
+              A few other engineering students and I at Thinkful worked together to
+              create our solutions for the Caesar cipher, the substitution cipher,
+              and the Polybius square cipher in Node.js. We also built mocha and chai
+              tests for our solutions. It was fun to work through these ciphers using
+              more primitive programming practices. It helped me to nail down some of
+              the basics. Reviewing the basics is important because I am also
+              learning more and more modern syntax.
             </p>
           </article>
 
@@ -134,13 +131,13 @@
               >
             </h4>
             <p>
-              The local library is a back-end Node.js data handling and
-              structuring program that uses many array methods and a ton of ES6
-              syntax. Sets of data such as authors, books, and library account
-              members interact with each other. The goal of the project was to
-              organize the data into different filter sets that show the data in
-              a more palatable interface than simply scrolling through lines and
-              lines of data. Here, I learned a lot about arrays and objects.
+              The local library is a back-end Node.js data handling and structuring
+              program that uses many array methods and a ton of ES6 syntax. Sets of
+              data such as authors, books, and library account members interact with
+              each other. The goal was to organize the data into different filter
+              sets that show the data in a more palatable interface. Scrolling
+              through lines and lines of data does not make for the best user
+              experience. Here, I learned a lot about arrays and objects.
             </p>
           </article>
         </div>
@@ -150,6 +147,7 @@
 
       <section id="contact">
         <h4>Contact Austin</h4>
+        <p><a href="www.google.com">placeholder@abc.com</a></p>
         <nav id="socials">
           <h5>Socials</h5>
           <a href="https://linkedin.com/in/austinhjones3" target="_blank"
@@ -168,12 +166,7 @@
 
           <div class="field">
             <label for="email">Email</label>
-            <input
-              name="email"
-              id="email"
-              type="text"
-              placeholder="Enter email"
-            />
+            <input name="email" id="email" type="text" placeholder="Enter email" />
           </div>
 
           <div class="field">
